@@ -22,18 +22,19 @@ class ViewController: UIViewController {
     
     
     
-
+    @IBAction func buttonX(_ sender: Any) {
+        
+        let urlX = URL(string: stringX)
+        
+        let dataX = try?Data(contentsOf: urlX!)
+        
+        imageViewX.image = UIImage(data: dataX!)
+    }
+    
     
     
     
     override func viewDidLoad() {
-        
-        
-        let urlX = URL(string: stringX)
-       
-        let dataX = try?Data(contentsOf: urlX!)
-        
-        imageViewX.image = UIImage(data: dataX!)
         
         
         
