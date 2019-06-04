@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    var stringX = "https://foodpalette.in//Chennai//images//thumbnails//RS-_Bakehouse_23_Ferrerro_Rocher_Cupcake.jpg"
+    var stringX = "http://foodpalette.in//Chennai//images//thumbnails//RS-_Bakehouse_23_Ferrerro_Rocher_Cupcake.jpg"
     
     
    
